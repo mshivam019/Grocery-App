@@ -57,7 +57,7 @@ fun Reset(navController: NavController){
         AppTextField(username,"Username","Enter your email address",imageVector){
             username=it
         }
-        Button(onClick = { /*TODO*/ }, colors = ButtonDefaults.buttonColors(
+        Button(onClick = {}, colors = ButtonDefaults.buttonColors(
             backgroundColor = Teal500,
             contentColor = Color.White
         ), modifier = Modifier
